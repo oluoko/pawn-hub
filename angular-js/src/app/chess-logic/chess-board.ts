@@ -71,4 +71,8 @@ export class ChessBoard {
       );
     });
   }
+
+  public static isSquareDark(x: number, y: number): boolean {
+    return !((x + y) % 2 === 1);
+  }
 }
