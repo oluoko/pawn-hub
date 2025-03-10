@@ -17,6 +17,7 @@ export const metadata: Metadata = {
   title: "Pawn Hub",
   description:
     "A chess website with an AI assitant to help you improve your skills",
+  icons: { icon: "/icon.png" },
 };
 
 export default function RootLayout({
